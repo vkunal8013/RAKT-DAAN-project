@@ -1,0 +1,222 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+// Preloader CSS Starts
+
+.preLoaderContainer {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    font-size: 32px;
+    font-weight: 600;
+  }
+}
+
+// Preloader CSS Ends
+
+/* Home CSS Starts */
+
+.homeHeaderContainer {
+  background: url("./assets/img/homeBG.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  height: 500px;
+
+  p {
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+  }
+}
+
+.homeContainer {
+  margin-top: 25px;
+  padding: 20px;
+  text-align: center;
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+  background: #ffffff;
+  -webkit-box-shadow: 12px 12px 24px #d9d9d9, -12px -12px 24px #ffffff;
+  box-shadow: 12px 12px 24px #d9d9d9, -12px -12px 24px #ffffff;
+  .heading {
+    font-size: 50px;
+    text-decoration: underline;
+  }
+  .description {
+    font-size: 20px;
+  }
+}
+
+/* Home CSS Ends */
+
+/* Login CSS Starts */
+
+.loginContainer {
+  background: url("./assets/img/loginBG.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginBox {
+  background: #638fa1;
+  border-radius: 5%;
+  box-shadow: 9.91px 9.91px 15px #5a8293, -9.91px -9.91px 15px #6c9caf;
+  padding: 10px;
+  height: 30vh;
+  width: 20vw !important;
+}
+
+.form-label {
+  color: white;
+  font-weight: 600;
+}
+
+/* Login CSS Ends */
+
+// Blood Bank Home CSS Starts
+
+.donationContainer {
+  padding: 10px;
+  text-align: center;
+  p {
+    font-size: 32px;
+    font-weight: 600;
+  }
+}
+
+// Blood Bank Home CSS Ends
+
+// Hospital CSS Starts
+
+.hospitalContainer {
+  padding: 20px;
+
+  text-align: center;
+
+  p {
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  .searchContainer {
+    background: #eef0f4;
+    border-radius: 5px;
+    box-shadow: 9.91px 9.91px 15px #d9dade, -9.91px -9.91px 15px #ffffff;
+    padding: 20px;
+    height: 200px;
+    p {
+      font-size: 16px;
+    }
+  }
+}
+
+// Hospital CSS Ends
+
+// Donator Card CSS Starts
+
+.donorCard {
+  background: #eef0f4;
+  border-radius: 5%;
+  box-shadow: 9.91px 9.91px 15px #d9dade, -9.91px -9.91px 15px #ffffff;
+  padding: 30px;
+  text-align: left;
+  height: 350px;
+  width: 350px !important;
+  p {
+    font-size: 20px;
+  }
+}
+
+// Donator Card CSS Ends
+
+/* Profile Header CSS Starts */
+
+.profileContainer {
+  background-color: aliceblue;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  flex-direction: column;
+}
+
+.photoContainer {
+  width: 123px;
+  height: 123px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+}
+
+/* Profile Header CSS Starts */
+
+/* Blood Collection Page CSS Starts */
+
+.bloodCollectionContainer {
+  background-size: cover;
+  height: 100vh;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bloodCollectionFormContainer {
+  height: 420px;
+  width: 350px !important;
+  padding: 20px;
+  background: #eef0f4;
+  border-radius: 5px;
+  box-shadow: 9.91px 9.91px 15px #d9dade, -9.91px -9.91px 15px #ffffff;
+
+  p {
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+
+  .form-label {
+    color: black;
+  }
+}
+
+/* Blood Collection Page CSS Ends */
+
+// Edit Details CSS Starts
+
+.editContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("./assets/img/editBG.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.editCard {
+  padding: 20px;
+  background: #eef0f4;
+  border-radius: 5%;
+  border: 3px solid black;
+  width: 620px !important;
+  p {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+
+// Edit Details CSS Ends
