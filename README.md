@@ -4,8 +4,9 @@ The current blood management system in India is facing critical challenges inclu
 # Challenges we ran into
 Some of the challenges we ran into were:
 
-Implementing third web, as its new and provide custom react components
-Creation of smart contracts and token using ERC20 standard
+Implementing third web, as its new and provide custom react components.
+
+Creation of smart contracts and token using ERC20 standard.
 
 # TECHNOLOGIES USED
 
